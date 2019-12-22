@@ -8,7 +8,6 @@ Instructor: Sheehan
 
 App.java
 The entry point for the Application is this class.
-
  */
 package com.mycompany.kherl1_6617_hw3;
 import javafx.application.Application;

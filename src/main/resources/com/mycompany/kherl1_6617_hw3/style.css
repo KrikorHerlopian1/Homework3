@@ -1,0 +1,92 @@
+.root {
+    -fx-focus-color: #747474; 
+}
+.button{
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #747474;
+}
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+.split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:horizontal > * > .split-pane-divider {
+   -fx-border-color: transparent -fx-box-border transparent #BBBBBB;
+   -fx-background-color: transparent, -fx-inner-border-horizontal;
+   -fx-background-insets: 0, 0 1 0 1;
+}
+
+.split-pane:vertical > * > .split-pane-divider {
+   -fx-border-color:  #BBBBBB transparent -fx-box-border transparent;
+   -fx-background-color: transparent, -fx-inner-border;
+   -fx-background-insets: 0, 1 0 1 0;
+}
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em;
+}
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical {
+    -fx-pref-width: 20;
+    -fx-padding: 3;
+}
+.text-field:disabled {
+   -fx-background-color: #E0E0E2;
+   -fx-border-color: #94BBDA;
+   -fx-text-fill: #000000;
+}
+.label:disabled {
+   -fx-background-color: #E0E0E2;
+   -fx-border-color: #94BBDA;
+   -fx-text-fill: #000000;
+   -fx-padding: 10px;
+}
+.table-row-cell:selected {
+    -fx-selection-bar: #747474; 
+    -fx-selection-bar-non-focused: #bababa;
+}
+.table-column {
+  -fx-alignment: CENTER;
+}
